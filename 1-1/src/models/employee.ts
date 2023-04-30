@@ -45,6 +45,7 @@ const EmployeeSchema = new Schema<IEmployee>(
         },
         message: (props) => `${props.value} is not a valid nationalCode!`,
       },
+      index: true,
     },
     companyName: {
       type: String,
