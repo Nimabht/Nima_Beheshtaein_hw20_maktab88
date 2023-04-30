@@ -1,0 +1,347 @@
+{
+  metadata: AppError: "roleInCompnay" is not allowed
+      at Function.badRequest (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\utils\appError.js:11:16)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:31:44
+      at Generator.next (<anonymous>)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:4:12)
+      at createEmployee (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:27:41)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:19:19
+      at Generator.next (<anonymous>)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:8:71 {
+    status: 'fail',
+    statusCode: 400
+  },
+  level: 'error',
+  message: '"roleInCompnay" is not allowed',
+  timestamp: '2023-04-30T18:36:38.881Z'
+}
+{
+  metadata: AppError: "roleInCompnay" is not allowed
+      at Function.badRequest (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\utils\appError.js:11:16)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:31:44
+      at Generator.next (<anonymous>)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:4:12)
+      at createEmployee (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\controllers\employee.js:27:41)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:19:19
+      at Generator.next (<anonymous>)
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:8:71 {
+    status: 'fail',
+    statusCode: 400
+  },
+  level: 'error',
+  message: '"roleInCompnay" is not allowed',
+  timestamp: '2023-04-30T18:36:39.679Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::1010
+      at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+      at listenInCluster (node:net:1420:12)
+      at Server.listen (node:net:1508:7)
+      at Function.listen (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\index.js:28:5)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 1010
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::1010\n' +
+    'Error: listen EADDRINUSE: address already in use :::1010\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n' +
+    '    at listenInCluster (node:net:1420:12)\n' +
+    '    at Server.listen (node:net:1508:7)\n' +
+    '    at Function.listen (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js:28:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::1010\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n' +
+    '    at listenInCluster (node:net:1420:12)\n' +
+    '    at Server.listen (node:net:1508:7)\n' +
+    '    at Function.listen (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js:28:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)',
+  exception: true,
+  date: 'Sun Apr 30 2023 23:07:24 GMT+0430 (Iran Daylight Time)',
+  process: {
+    pid: 7504,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72822784,
+      heapTotal: 39849984,
+      heapUsed: 25849296,
+      external: 23776127,
+      arrayBuffers: 18447246
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 110122 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1372,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1420,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1508,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 77,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2023-04-30T18:37:24.107Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::1010
+      at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+      at listenInCluster (node:net:1420:12)
+      at Server.listen (node:net:1508:7)
+      at Function.listen (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\index.js:28:5)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 1010
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::1010\n' +
+    'Error: listen EADDRINUSE: address already in use :::1010\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n' +
+    '    at listenInCluster (node:net:1420:12)\n' +
+    '    at Server.listen (node:net:1508:7)\n' +
+    '    at Function.listen (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js:28:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::1010\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n' +
+    '    at listenInCluster (node:net:1420:12)\n' +
+    '    at Server.listen (node:net:1508:7)\n' +
+    '    at Function.listen (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js:28:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)',
+  exception: true,
+  date: 'Sun Apr 30 2023 23:07:28 GMT+0430 (Iran Daylight Time)',
+  process: {
+    pid: 26764,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73011200,
+      heapTotal: 39587840,
+      heapUsed: 26124480,
+      external: 23776127,
+      arrayBuffers: 18492071
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 110126 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1372,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1420,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1508,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\Boot_camp_node.js\\Codes\\Homeworks\\Nima_Beheshtaein_hw20_maktab88\\1-1\\dist\\index.js',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 77,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2023-04-30T18:37:28.077Z'
+}
+{
+  metadata: AppError: res.locals.employee.deleteOne is not a function
+      at D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:22:24
+      at Generator.throw (<anonymous>)
+      at rejected (D:\Boot_camp_node.js\Codes\Homeworks\Nima_Beheshtaein_hw20_maktab88\1-1\dist\middlewares\async.js:6:65)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    status: 'error',
+    statusCode: 500
+  },
+  level: 'error',
+  message: 'res.locals.employee.deleteOne is not a function',
+  timestamp: '2023-04-30T18:59:36.316Z'
+}
